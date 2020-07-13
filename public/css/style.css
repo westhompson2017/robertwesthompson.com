@@ -1,0 +1,207 @@
+/*  This is the stylesheet for Robert Wes Thompson  */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100% /* Needed to make header image 100% cover. */
+}
+
+body {
+  background-color: #fff;
+  font-size: 100%; /*Needed to make text render at correct size in all browsers*/
+  height: 100vh; /*Needed to make banner image 100% cover*/
+  }
+
+header {
+  background-image: url("/images/image02.jpg");
+  background-color: #ccc;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%; /*Needed to make  banner image 100% cover*/
+  /* max-width: 100%; */
+  padding: 4%;
+  text-align: center;
+  /* The following creates the color overlay. */
+  box-shadow: inset 0 0 0 1000px rgba(0, 12, 118,.6);
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  color: #a9a9a9;
+  margin: 20px auto;
+}
+
+p, li {
+  font-family: "Roboto";
+  font-size: 1.1em;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+/* Better-looking horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 1.2em 0;
+    padding: 0;
+}
+
+/* id */
+#container {
+  padding: 8%;
+}
+
+#skills {
+  position: relative;
+  /* background: #F2F2E5; */
+  overflow: hidden;
+  /* padding: 3%; */
+  margin: 40px auto;
+}
+
+/* The following sets the background image for the #skills div and reduces the opacity */
+#skills:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    /* background-image: url("/images/bgimage04.jpg"); */
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#skillsimage {
+  float:left;
+  max-width: 50%;
+  margin-right: 50px;
+}
+
+#skillstext {
+  float: left;
+  max-width: 50%;
+}
+
+#skillstext li {
+  line-height: 1.8em;
+}
+
+/* class */
+.whitetext {
+  color: #fff;
+}
+
+h1.headings {
+  font-size: 220%;
+}
+
+.verticalcenter1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.verticalcenter2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* The following two rules create the columns. */
+.column {
+  float: left;
+  max-width: 33.33%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The following two rules create the image overlay that retracts on mouseover. */
+.column-image {
+  margin-top: 30px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity: 1.0
+}
+
+.column-image:hover {
+  opacity: 0.6;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+/* Sets the price to green color */
+.price {
+  color: #34ba34;
+}
+
+/* This affects the pricing table as a whole */
+.pricing {
+  background-color: #3d3f4f;
+  border: 1px solid #3d3f4f;
+  border-radius: 25px;
+  margin: 0 5px;
+  max-width: 32%;
+}
+
+.pricing p, .pricing li {
+  color: #fff;
+}
+
+.pricing li {
+  margin: 0 0 15px -20px;
+}
+
+.more-margin {
+  margin-top: 15px;
+}
+
+.black-text {
+  color: black;
+}
+
+.statement {
+  background-color: #F2F2E5;
+  padding: 6% 15%;
+}
+
+.statement p {
+  font-size: 120%;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.7;
+  letter-spacing: .14em;
+}

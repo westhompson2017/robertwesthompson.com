@@ -1,0 +1,156 @@
+  Robert Wes Thompson
+Home
+ 
+Skills & Interests
+ 
+Curriculum Vitae
+ 
+Portfolio
+ 
+Search …
+
+
+
+
+[x_section id="home" style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="" type="1/1" style="padding: 0px 0px 0px 0px; "][x_text]
+
+Welcome
+[/x_text][/x_column][/x_row][/x_section][x_section style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="" type="1/1" style="padding: 0px 0px 0px 0px; "][x_text] Hello, my name is Wes Thompson. I have worked in the education profession since 1998. Currently, I am an academic counselor and program coordinator at an international school in Vietnam. I am interested in taking my career in a new direction: as an instructional designer and educational web developer. Please take a look at my curriculum vitae to learn more about me and at my portfolio to see examples of my work. Thank you.[/x_text][/x_column][/x_row][/x_section][x_section id="portfolio" style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="" type="1/1" style="padding: 0px 0px 0px 0px; "][x_custom_headline level="h1" looks_like="h1" accent="false"]Portfolio[/x_custom_headline][/x_column][/x_row][/x_section][x_section style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="#e8e8e8" style="margin: 0px auto 0px auto; padding: 30px 30px 30px 30px; "][x_column bg_color="" type="1/3" style="padding: 0px 0px 0px 0px; "][x_image type="none" src="" alt="" link="true" href="http://www.ateachertraveling.com" title="A Teacher Traveling " target="blank" info="tooltip" info_place="top" info_trigger="hover" info_content=""][x_text]Text for item 1 here.[/x_text][/x_column][x_column bg_color="" type="1/3" style="padding: 0px 0px 0px 0px; "][x_image type="none" src="" alt="" link="true" href="http://partneronecapital.com" title="Partner One Capital" target="blank" info="tooltip" info_place="top" info_trigger="hover" info_content=""][x_text]Text for item 2 here.[/x_text][/x_column][x_column bg_color="" type="1/3" style="padding: 0px 0px 0px 0px; "][x_image type="none" src="" alt="" link="true" href="http://lukhach.com.vn" title="Visitors Travel" target="blank" info="tooltip" info_place="top" info_trigger="hover" info_content=""][x_text]Visitors Travel: A website I built for a travel agent / bed-and-breakfast owner client[/x_text][/x_column][/x_row][x_row inner_container="true" marginless_columns="false" bg_color="#e8e8e8" style="margin: 0px auto 0px auto; padding: 0px 30px 30px 30px; "][x_column bg_color="" type="1/3" style="padding: 0px 0px 0px 0px; "][x_image type="none" src="" alt="" link="true" href="http://urbancafe.robertwesthompson.com" title="" target="" info="none" info_place="top" info_trigger="hover" info_content=""][x_text]Urban Coffee: A website for a fictitious coffee shop I created for practice[/x_text][/x_column][x_column bg_color="" type="1/3" style="padding: 0px 0px 0px 0px; "][x_image type="none" src="" alt="" link="false" href="#" title="" target="" info="none" info_place="top" info_trigger="hover" info_content=""][/x_column][x_column bg_color="" type="1/3" style="padding: 0px 0px 0px 0px; "] [/x_column][/x_row][/x_section][x_section id="skills" style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="" type="1/1" style="padding: 0px 0px 0px 0px; "][x_custom_headline level="h1" looks_like="h1" accent="false"]
+
+Skills & Interests
+[/x_custom_headline][/x_column][/x_row][/x_section][x_section style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="" type="1/1" style="padding: 0px 0px 0px 0px; "][x_accordion][x_accordion_item title="I am experienced in the following areas:" open="false"]
+
+Classroom Teaching
+English, Grades 9-11
+Art, Grades 9-12
+Teacher Training
+Trained teachers in the use of
+class grade and attendance software
+email and calendar application
+state-level student exam preparation website
+Coordinating Academic Programs
+International Baccalaureate (IB)
+Advanced Placement (AP)
+[/x_accordion_item][/x_accordion][/x_column][/x_row][/x_section][x_section id="cv" style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="" type="1/1" style="padding: 0px 0px 0px 0px; "][x_custom_headline level="h1" looks_like="h1" accent="false"]Curriculum Vitae[/x_custom_headline][/x_column][/x_row][/x_section][x_section bg_color="" style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; "][x_row inner_container="true" marginless_columns="false" bg_color="" style="margin: 0px auto 0px auto; padding: 0px 0px 0px 0px; "][x_column bg_color="#ededed" type="1/1" style="padding: 20px 20px 20px 20px; "][x_accordion][x_accordion_item title="Summary" open="true"]
+
+Certified English teacher and qualified academic program administrator with a variety of knowledge, experience, and interests in instructional design, education programs, curriculum development, and administration seeking a position as an instructional designer.
+
+[/x_accordion_item][x_accordion_item title="Certifications" open="false"]
+
+State of Florida, Department of Education
+Professional Educator (Certificate #722000):
+English (Grades 6-12)
+Art (Grades K-12)
+[/x_accordion_item][x_accordion_item title="Professional Experience" open="false"]
+
+Catapult Academy
+Two Aquarium Drive Camden, New Jersey
+High School English Teacher (Virtual)
+August 2014 – Present
+Teach English language arts in a blended learning environment to students in grades 9-12. I orient new students to the class and address any questions students or parents may have; grade coursework and provide feedback; communicate with students, parents, and school administrators; and maintain a positive educational environment.
+
+American International School
+781/C1-C2 Le Hong Phong (extended) Ward 12, District 10 Ho Chi Minh City, Vietnam
+School Accreditation Coordinator
+July 2013 – Present
+Successfully led the overall effort for earning the school’s accreditation by the Western Association of Colleges and Schools (WASC) and the Council of International Schools (CIS) for grades 9-12. Continue to serve in this capacity in earning accreditation for the school’s other campuses and grade levels.
+
+Assistant Principal, High School
+July 2013 – July 2014
+Oversaw the daily operation of the high school, communicated with teachers, resolved a variety of issues and concerns, conducted weekly faculty meetings, performed teacher evaluations, enforced student discipline, ensured the safety and well being of all members of the school community, conducted emergency evacuation drills, and met with parents to resolve a variety of issues and concerns.
+
+Academic Programs and School Accreditation Coordinator
+August 2012 – July 2013
+Managed the school’s academic programs, such as the International Baccalaureate (IB) and Advanced Placement (AP), as well as the Measures of Academic Progress (MAP) test, the academic achievement test used by the school. Also initiated the process for the school’s accreditation by the Western Association of Colleges and Schools (WASC) and the Council of International Schools (CIS).
+
+Dean of Students, High School
+August 2011 – July 2012
+Assisted the director and the principal in the daily operation of the high school and enforced the student conduct code and attendance policy. Also oversaw the implementation of the Measures of Academic Progress (MAP) test.
+
+English Teacher
+August 2008 – June 2011
+Taught English literature, grammar, vocabulary, and writing skills to students in grades 8-10 and English language support to students in grades 6-8.
+
+Gaither High School
+16200 N Dale Mabry Hwy Tampa, FL 33618
+Art Teacher & Chair, Department of Fine & Performing Arts
+August 2006 – June 2008
+Teacher Duties Taught beginning art and digital photography to students in grades 9-12. Department Chair Duties Oversaw 11 art, drama, music, and media teachers, serving as a disseminator of information pertinent to their jobs, discussing curriculum issues, and conducting classroom observations. Also met weekly with the assistant principal for curriculum, resolved conflicts, and offered general advice to teachers and administrators.
+
+English Faculty & Media Specialist
+August 2001 – June 2006
+General Duties Instructed students, faculty, and staff in the use of material for educational as well as recreational purposes, taught and collaborated with other teachers on the use and support of technology for instructional purposes, promoted and encouraged information literacy and reinforced students' interests and abilities in reading, research, and writing.
+
+Southern Association of Colleges and Schools (SACS) School Accreditation Sub-Committee Chair (2006)
+Led a team of 25 colleagues through the development of the school’s Action Plan and School Improvement Plan as a required part of the SACS self-study for the school’s re-accreditation process.
+
+Chamberlain High School
+9401 N Boulevard Tampa, FL 33612
+English and Journalism Teacher
+August 1998 – June 2001
+Taught English literature, grammar, vocabulary, and writing skills to students in grades 9 and 11 and journalism to students in grades 9-12.[/x_accordion_item][x_accordion_item title="Education" open="false"]
+
+Master of Education (M.Ed.), Educational Leadership
+American College of Education, Indianapolis, IN, 2014
+
+Master of Arts (M.A.), Educational Media
+University of South Florida, Tampa, FL, 1998
+
+Bachelor of Arts (B.A.), English
+University of Florida, Gainesville, FL, 1994
+
+Bachelor of Science (B.S.), Journalism
+University of Florida, Gainesville, FL, 1989[/x_accordion_item][x_accordion_item title="Additional Education, Training, and Conferences" open="false"]
+
+Northwest Evaluation Association (NWEA)
+August 27 – 28, 2015
+Measures of Academic Progress (MAP): Applying Reports and Data Workshop American International School, Ho Chi Minh City, Vietnam
+
+East Asia Regional Council of Schools (EARCOS)
+October 30 – November 3, 2013
+Leadership Conference: “Learning without Limits,” Bangkok, Thailand
+
+Diploma Program Coordinator Training, International Baccalaureate (IB)
+October 23 – October 25, 2009
+British International School, Shanghai, China
+
+TEFL International, Certificate Program
+August 4 – August 29, 2008
+Teaching English as a Foreign Language, Ho Chi Minh City, Vietnam 120-hour classroom course with nine hours of observed teaching practice in a Vietnamese high school
+
+Teacher In-service Training Program
+June 5 – June 16, 2000
+Hillsborough County Public School System, Tampa, FL 60-hour course in Applied Linguistics for Teaching English as a Second Language[/x_accordion_item][/x_accordion][/x_column][/x_row][/x_section]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save
+   Designed by Elegant Themes | Powered by WordPressSkip to toolbar
+Robert Wes Thompson
+8
+0
+New
+Edit Page
+Caching
+Exit Visual Builder
+
+Howdy, admin
+Log Out

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Practice</title>
+  </head>
+  <body>
+
+    <style media="screen">
+      #container {
+        padding: 0 10%;
+      }
+      h1, h2, h3 {
+        color: #a3a3a3;
+      }
+      #malelabel, #femalelabel, #nonbinarylabel, #notsaylabel, #yeslabel, #nolabel {
+        padding-right: 8%;
+      }
+      h1, h2, h3, h4, h5, h6, p, label {
+        font-family: "Open Sans", Arial, sans-serif;
+      }
+      small, legend {
+        font-family: sans-serif;
+      }
+      #displayinfo {
+        background-color: #ddd;
+        display: none;
+        padding: 10px 0 10px 10px;
+      }
+    </style>
+  <div id="container">
+    <h2>Please enter your information as indicated.</h2>
+    <form class="" action="/" method="post"> <!-- action must be "/", NOT "index.html"!! -->
+      <label for="salutation">Salutation: </label><br>
+        <select name="salutation">
+            <option id="mr" value="mr">Mr.</option>
+            <option id="ms" value="ms">Ms.</option>
+            <option id="mrs" value="mrs">Mrs.</option>
+            <option id="miss" value="miss">Miss</option>
+            <option id="dr" value="dr">Dr.</option>
+            <option id="rev" value="rev">Rev.</option>
+        </select><br><br>
+      <label for="firstName">First name:</label><br>
+        <input type="text" name="firstName"><br><br>
+      <label for="lastName">Last name:</label><br>
+        <input type="text" name="lastName"><br><br>
+      <label for="age">Age:</label><br>
+        <input type="text" name="age"><br><br>
+      <label for="hometown">Hometown:</label><br>
+        <input type="text" name="hometown">
+      <br><br>
+      <label for="email">Email: </label><br>
+        <input type="email" name="email" id="email">
+      <br><br>
+      <label for="telephone">Telephone number: </label><br>
+        <input type="tel" name="telephone" id="telephone" pattern="[0-9]{10}"><br>
+        <small>10 digits, numbers only, no dashes or parentheses</small><br>
+      <br>
+      <hr>
+      <h4>Places you would like to travel:</h4>
+        <input type="checkbox" name="usa" id="usa" value="Unites States">
+          <label for="usa">United States</label><br>
+        <input type="checkbox" name="mexico" id="mexico" value="Mexico">
+          <label for="mexico">Mexico</label><br>
+        <input type="checkbox" name="europe" id="europe" value="Europe">
+          <label for="europe">Europe</label>
+      <br><br>
+      <hr>
+      <h4>Gender:</h4>
+      <input type="radio" name="gender" value="male" id="male">
+        <label id="malelabel" for="male">Male</label><br>
+      <input type="radio" name="gender" value="female" id="female">
+        <label id="femalelabel" for="female">Female</label><br>
+      <input type="radio" name="gender" value="nonbinary" id="nonbinary">
+        <label id="nonbinarylabel" for="nonbinary">Non-Binary</label><br>
+      <input type="radio" name="gender" value="notsay" id="notsay">
+        <label id="notsaylabel" for="notsay">I prefer not to say</label>
+        <br><br>
+      <fieldset>
+        <legend>Passport information</legend>
+        <h4>Do you have a US passport?</h4>
+        <input type="radio" name="passport" value="yes" id="yes" onclick="show();">
+          <label id="yeslabel" for="yes">Yes</label><br>
+        <input type="radio" name="passport" value="no" id="no" onclick="hide();">
+          <label id="nolabel" for="no">No</label>
+          <br><br>
+      <div id="displayinfo">
+        <h4>If yes, date of expiration: </h4>
+        <!-- Label is not really needed. -->
+        <input type="date" name="passportexp" id="passportexp">
+          <br><br>
+          <hr>
+        <h4>If possible, please scan and upload a copy of your name page: </h4>
+        <input type="file" name="pagescan" id="pagescan">
+        <small>Formats: PDF, DOC, JPG, PNG</small>
+        <br><br>
+      </div>
+    </fieldset>
+      <h4>Highest education level:</h4>
+      <select id="education" name="education">
+        <option value="less than high school">Less than high school</option>
+        <option value="high school grad">High school graduate</option>
+        <option value="some college">Some college</option>
+        <option value="undergrad">Undergraduate degree</option>
+        <option value="graduate">Graduate degree</option>
+      </select>
+      <br><br>
+      <hr>
+      <h4>Any additional information you would like to add:</h4>
+      <textarea name="comments" cols="40" rows="4" placeholder="Please type comment here."></textarea>
+      <br><br><br>
+      <button type="submit" name="submit">SUBMIT</button>
+      <input type="button" onclick="alert('Hello, Wes')" value="Click me">
+      <br><br>
+    </form>
+  </div>
+
+  <script type="text/javascript">
+
+  var passportInfo = document.getElementById("displayinfo");
+
+  function hide(){
+    passportInfo.style.display = "none";
+  }
+
+  function show(){
+    passportInfo.style.display = "block";
+  }
+
+  </script>
+  </body>
+</html>
