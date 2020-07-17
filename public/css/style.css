@@ -27,11 +27,11 @@ header {
   padding: 4%;
   text-align: center;
   /* The following creates the color overlay. */
-  box-shadow: inset 0 0 0 1000px rgba(91, 32, 89, 1);
+  box-shadow: inset 0 0 0 1000px rgba(91, 32, 89, 0.8);
 }
 
 h1, h2, h3 {
-  font-family: "Montserrat";
+  font-family: "Roboto", sans-serif;
   color: #BA6E6E;
   margin: 20px auto;
 }
@@ -91,6 +91,7 @@ hr {
   float:left;
   max-width: 50%;
   margin-right: 50px;
+  box-shadow: 0px 0px 35px 4px rgba(128,129,138,0.5);
 }
 
 #skillstext {
@@ -111,6 +112,11 @@ h1.headings {
   font-size: 220%;
 }
 
+.centered {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .verticalcenter1 {
   position: absolute;
   top: 50%;
@@ -125,8 +131,8 @@ h1.headings {
   transform: translate(-50%, -50%);
 }
 
-/* The following two rules create the image overlay that retracts on mouseover. */
-.column-image {
+/* The following two rules create the image overlay that retracts on mouseover. OBSOLETE!*/
+.fees-column-image {
   margin: 30px auto;
   display: block;
   max-width: 100%;
@@ -134,7 +140,8 @@ h1.headings {
   width: 95%;
 }
 
-.overlay {
+/* OBSOLETE */
+/* .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -144,12 +151,7 @@ h1.headings {
   width: 0;
   height: 100%;
   transition: .5s ease;
-}
-
-/* Sets the price to green color */
-.price {
-  color: #3A787E;
-}
+} */
 
 /* The following two rules create the columns. */
 .equal {
@@ -179,7 +181,7 @@ h1.headings {
 } */
 
 .fees-column h2 {
-  color: #9fd9db;
+  color: #59bcc0;
 }
 
 .fees-column p, .pricing li {
@@ -200,12 +202,13 @@ h1.headings {
 }
 
 .black-text {
-  color: black;
+  color: black !important;
 }
 
 .statement {
   background-color: #F2F2E5;
   padding: 6% 15%;
+  box-shadow: 0px 0px 35px 4px rgba(128,129,138,0.5);
 }
 
 .statement p {
@@ -215,7 +218,33 @@ h1.headings {
   letter-spacing: .14em;
 }
 
+.foot-note {
+  font-size: 85%;
+  font-style: italic;
+  color: #aaa !important;
+}
 
+.caption {
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  color: #aaa;
+  display: inline-block;
+  margin: 9px 0 50px 0;
+}
+
+#portfolio{
+  background-color: #e8e6e3;
+  border: 1px solid #e8e6e3;
+  margin: 2% 1%;
+  padding: 1%;
+  box-shadow: 0px 0px 35px 4px rgba(128,129,138,0.5);
+}
+
+.portfolio-img {
+  display: block;
+  max-width: 100%;
+  /* margin-bottom: 10px; */
+}
 
 /* Media Queries */
 
