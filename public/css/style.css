@@ -1,5 +1,6 @@
 /*  This is the stylesheet for Robert Wes Thompson  */
 
+/* The following removes the default margin from and adds box-sizing to all elements on the page. */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -23,7 +24,6 @@ header {
   background-size: cover;
   background-attachment: fixed;
   height: 100%; /*Needed to make  banner image 100% cover*/
-  /* max-width: 100%; */
   padding: 4%;
   text-align: center;
   /* The following creates the color overlay. */
@@ -77,7 +77,6 @@ hr {
     height: 100%;
     z-index: 1;
     opacity: 0.4;
-    /* background-image: url("/images/bgimage04.jpg"); */
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -103,18 +102,58 @@ hr {
   line-height: 1.8em;
 }
 
-/* class */
-.whitetext {
-  color: #fff;
+#footer {
+  background-color: rgba(91, 32, 89, 0.8);
+  height: auto;
 }
 
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start !important;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 2% 8%;
+  border: 4px solid red;
+}
+
+.footer-col-1 {
+  /* background-color: #e8e6e3; */
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  border: 4px solid white;
+}
+
+#bottom-bar {
+  height: 75px;
+  background-color: #505050;
+}
+
+#bottom-bar p {
+  font-size: .9em;
+  color: #dcdcdc;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 5.5%;
+
+}
+
+/* class */
+
 h1.headings {
-  font-size: 220%;
+  font-size: 400%;
 }
 
 .centered {
   width: 50%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .verticalcenter1 {
@@ -134,10 +173,10 @@ h1.headings {
 /* The following two rules create the image overlay that retracts on mouseover. OBSOLETE!*/
 .fees-column-image {
   margin: 30px auto;
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
-  width: 95%;
+  width: 100%;
 }
 
 /* OBSOLETE */
@@ -154,31 +193,23 @@ h1.headings {
 } */
 
 /* The following two rules create the columns. */
-.equal {
+.flex-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
   /* width: 100%; */
 }
 
 /* This affects the fees table as a whole */
 .fees-column {
-  /* float: left; */
-  /* max-width: 33.33%; */
-  flex: 25%;
+  max-width: 30%;
   padding: 16px;
   background-color: #e8e6e3;
   border: 1px solid #e8e6e3;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 2% 1%;
   box-shadow: 0px 0px 35px 4px rgba(128,129,138,0.5);
 }
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 
 .fees-column h2 {
   color: #59bcc0;
@@ -203,6 +234,10 @@ h1.headings {
 
 .black-text {
   color: black !important;
+}
+
+.white-text {
+  color: #fff;
 }
 
 .statement {
@@ -246,16 +281,41 @@ h1.headings {
   /* margin-bottom: 10px; */
 }
 
+.no-margin-left {
+  margin-left: 10px;
+}
+
 /* Media Queries */
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .equal {
+@media screen and (max-width: 900px) {
+  .flex-container {
     flex-direction: column;
 
   }
 
-  /* .fees-column {
-    margin-top: 75px;
-  } */
+  .fees-column {
+    max-width: 100%;
+  }
+
+  .centered {
+    width: 85%;
+    padding-top: 30px;
+  }
+
+  #img-skillset{
+    width: 100% !important;
+  }
+
+  h1.headings {
+    margin-top: -20px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  h1.headings {
+    font-size: 300%;
+  }
+
 }
