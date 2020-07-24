@@ -1,39 +1,5 @@
 # robertwesthompson.com
 
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@westhompson2017 
-westhompson2017
-/
-robertwesthompson.com
-0
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-More
-Create README.md
-
- master
-@westhompson2017
-westhompson2017 committed 6 days ago 
-1 parent 1abda8d commit f8eb745540cc527e368b211630380ab2b3b488c2
-Showing  with 53 additions and 0 deletions.
- 53  README.md 
-@@ -0,0 +1,53 @@
-# robertwesthompson.com
-
 <h1>Wes Thompson</h1>
 <strong>Professional Website Design and Development</strong><br>
 Tampa, FL<br>
